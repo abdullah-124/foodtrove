@@ -122,18 +122,33 @@
   padding: 5px 10px;
 }
 .user_nav_item {
-  padding: 0 5px;
-  display: flex;
-  align-items: center;
+  padding: 5px;
+  position: relative;
 }
-.user_nav_item p{
-  margin: 0;
-  padding: 2px;
-  font-size: 15px;
+.user_nav_item .cart_number{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 38, 0);
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
 }
 nav{
   /* position: relative; */
 }
+.status{
+  padding: 5px 10px;
+  border-radius: 12px 0 12px 0;
+  background: #ca4545;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* ##############responsive#####d########### */
 @media only screen and (max-width : 768px) {
   .col-center{
     width: 50%;
